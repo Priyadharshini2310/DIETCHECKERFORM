@@ -1,8 +1,8 @@
-# 🥗 Diet Form Tracker
+#  Diet Form Tracker
 
 A comprehensive web-based diet tracking application designed to help users monitor their eating habits, health goals, and lifestyle choices. Built with modern HTML, CSS, and JavaScript for tracking fitness of the modern youngster.
 
-## 🌟 Features
+## Features
 
 ### Core Functionality
 - **Personal Information Tracking** - Age, gender, height, weight, activity level
@@ -19,7 +19,7 @@ A comprehensive web-based diet tracking application designed to help users monit
 - **Interactive Elements** - Hover effects, smooth transitions, and visual feedback
 - **Accessibility** - Proper form labels, semantic HTML, and keyboard navigation
 
-## 🎨 Design Highlights
+##  Design Highlights
 
 ### Visual Elements
 - **Inspirational Quote** - Motivational header with custom typography
@@ -35,7 +35,7 @@ A comprehensive web-based diet tracking application designed to help users monit
 - **Color-Coded Sections** - Different accent colors for easy visual distinction
 - **Typography** - Consistent font hierarchy with proper spacing and readability
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 diet-form-tracker/
@@ -55,7 +55,7 @@ diet-form-tracker/
 └── README.md              # Project documentation
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Modern web browser (Chrome, Firefox, Safari, Edge)
@@ -85,7 +85,7 @@ diet-form-tracker/
 3. Test form functionality across different browsers
 4. Customize colors and styling as needed
 
-## 🎯 Usage
+##  Usage
 
 ### For Users
 1. **Fill Personal Information** - Enter basic demographic and physical data
@@ -103,7 +103,7 @@ diet-form-tracker/
 4. **Integrate Backend** - Connect to database for data persistence
 5. **Mobile Optimization** - Test and enhance mobile responsiveness
 
-## 🛠 Customization
+##  Customization
 
 ### Styling Options
 ```css
@@ -128,7 +128,7 @@ diet-form-tracker/
 </fieldset>
 ```
 
-## 📱 Responsive Design
+##  Responsive Design
 
 The application is built with mobile-first approach:
 - **Desktop** (1200px+): 4-column grid layout
@@ -141,7 +141,7 @@ The application is built with mobile-first approach:
 @media (max-width: 480px) { /* Mobile styles */ }
 ```
 
-## 🎨 Image Gallery Styles
+##  Image Gallery Styles
 
 Multiple layout options available:
 
@@ -176,17 +176,17 @@ Multiple layout options available:
 </div>
 ```
 
-## 🔧 Browser Support
+##  Browser Support
 
 | Browser | Version | Status |
 |---------|---------|--------|
-| Chrome | 70+ | ✅ Full Support |
-| Firefox | 65+ | ✅ Full Support |
-| Safari | 12+ | ✅ Full Support |
-| Edge | 79+ | ✅ Full Support |
-| IE | 11 | ⚠️ Limited Support |
+| Chrome | 70+ |  Full Support |
+| Firefox | 65+ |  Full Support |
+| Safari | 12+ |  Full Support |
+| Edge | 79+ |  Full Support |
+| IE | 11 |  Limited Support |
 
-## 📊 Form Data Structure
+##  Form Data Structure
 
 The form collects data in the following categories:
 - Personal Information (name, age, gender, height, weight, activity level)
@@ -198,7 +198,7 @@ The form collects data in the following categories:
 - Physical Activity (exercise frequency, type, duration)
 - Sleep & Stress (sleep quality, stress levels, emotional eating)
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -213,7 +213,7 @@ The form collects data in the following categories:
 - Update documentation for new features
 - Maintain responsive design principles
 
-## 📋 Todo List
+##  Todo List
 
 - [ ] Add JavaScript form validation
 - [ ] Implement local storage for data persistence
@@ -226,14 +226,14 @@ The form collects data in the following categories:
 - [ ] Accessibility improvements
 - [ ] Advanced analytics dashboard
 
-## 🐛 Known Issues
+##  Known Issues
 
 - Form submission currently has no backend integration
 - Some images may need optimization for faster loading
 - IE11 may have limited CSS support for advanced animations
 - Mobile keyboards may obscure form fields in landscape mode
 
-## 📈 Future Enhancements
+##  Future Enhancements
 
 ### Version 2.0 Features
 - **Database Integration** - Store and retrieve user data
@@ -243,25 +243,25 @@ The form collects data in the following categories:
 - **Notifications** - Reminders for meals and exercise
 - **Wearable Integration** - Sync with fitness trackers
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👩‍💻 Author
+##  Author
 
 **Priyadharshini VN**
 - Developed for tracking fitness of the modern youngster
 - Focus on clean design and user experience
 - Committed to helping users achieve their health goals
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Inspiration from modern diet and fitness applications
 - CSS animations and effects from contemporary web design trends
 - Form structure based on comprehensive health assessment practices
 - Image styling inspired by material design principles
 
-## 📞 Support
+##  Support
 
 If you encounter any issues or have questions:
 1. Check the [Issues](https://github.com/yourusername/diet-form-tracker/issues) section
