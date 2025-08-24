@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dietform.css">
+  <title>Diet Form Tracker</title>
+  <style>
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  </style>
+  <link rel="stylesheet" href="dietform.css">
+</head>
+<body>
+  <div>
+  
+  <b style="font-size:xx-large;"> <i><center> <q>Every healthy choice you make is a vote for the person you want to become.</q></center></i></b>
+  <figure>
+  <img src="diet_quotes.jpg" alt="Trulli" style="width:1210px">
+  <br>
+  <figcaption><h1><center>Diet Form Tracker</center></h1></figcaption>
+</figure>
+<form action="" target="" method="">
+
+<fieldset>
+<legend><strong>Personal Information</strong></legend>
+<br><br>
+<label><strong>Name:</strong></label>
+<input type="text" id="name"  placeholder="Enter your name"/>
+<br>
+<br>
+<label><strong>Age</strong></label>
+<input type="text" id="age" placeholder="Enter your age"/>
+<br>
+<br>
+<label><strong>Gender</strong></label>
+<input type="radio" name="ftype"/>Female
+<input type="radio" name="ftype"/>Male
+<br>
+<br>
+<label><strong>Height</strong></label>
+<input type="number" id="Height" placeholder="Enter your height" /> <select name="height" id="height"><option value="cm">cm</option><option value="inch">inches</option></select>
+<br><br>
+<label for="weight"><strong>Weight</strong></label> 
+<input type="number" id="weight" placeholder="Enter your weight"/> <select name="weight" id="weight"><option value="kg">kg</option><option value="lbs">lbs</option></select>
+<br><br>
+<label for="activity"><strong>Activity Level</strong></label>
+<input type="checkbox">Sedentary
+<input type="checkbox">Lightly active
+<input type="checkbox">Moderately active
+<input type="checkbox">Very active
+<br><br>
+<br><br>
+</fieldset>
+<br><br>
+<fieldset>
+  <legend><b>Goals</b></legend>
+  <br>
+<label for="primarygoal"><strong>Whats your primary goal</strong></label>
+<input type="checkbox">Lose weight
+<input type="checkbox">Maintain weight
+<input type="checkbox">Gain Muscle
+<input type="checkbox">Improve Health
+<input type="checkbox">Increase Stamina
+<br><br>
+</fieldset>
+<br><br>
+<fieldset>
+    <legend><strong>Dietary Preferences</strong></legend>
+<br><br>
+    <label for="diettype"> <strong>Diet Type:</strong></label>
+<input type="radio" name="diettype" value="vegetarian">Vegetarian
+<input type="radio" name="diettype" value="vegan">Vegan
+<input type="radio" name="diettype" value="keto">Keto
+<input type="radio" name="diettype" value="paleo">Paleo
+<input type="radio" name="diettype" value="gluten-free">Gluten-Free
+<br><br>
+<label for="allergies"><strong>Food allergies/intolerances:</strong></label>
+<input type="checkbox" name="allergies" value="nuts">Nuts
+<input type="checkbox" name="allergies" value="dairy">Dairy
+<input type="checkbox" name="allergies" value="gluten">Gluten
+<input type="checkbox" name="allergies" value="soy">Soy
+<input type="checkbox" name="allergies" value="shellfish">Shellfish
+<input type="checkbox" name="allergies" value="eggs">Eggs
+<input type="checkbox" name="allergies" value="fish">Fish
+<input type="checkbox" name="allergies" value="none">Other
+<input type="text" placeholder="Please specify">
+<br><br>
+<br>
+</fieldset>
+<br><br>
+<fieldset>
+  <legend><b>Meal Tracking (Typical Day)</b></legend>
+  <br><br>
+  <label for="">Breakfast</label>
+  <input type="text" id="breakfast" placeholder="Enter breakfast items"/>
+  <br><br>
+  <label for="">Lunch</label>
+  <input type="text" id="lunch" placeholder="Enter lunch items"/>
+  <br><br>
+  <label for="">Dinner</label>
+  <input type="text" id="dinner" placeholder="Enter dinner items"/>
+  <br><br>
+  <label for="">Snacks</label>
+  <input type="text" id="snacks" placeholder="Enter snack items"/>
+  <br><br>
+  <label for="">Beverages</label>
+  <input type="text" id="beverages" placeholder="Enter beverages"/>
+  <br><br><br><br>
+</fieldset>
+<br><br>
+<fieldset>
+  <legend><b>Eating Habits</b></legend>
+  <br><br>
+<label for="eatinghabits">How many meals do you eat per day?</label>
+<input type="number" id="mealsPerDay" placeholder="Enter number of meals per day"/>
+<br><br>
+<label for="snacks">How often do you snack?</label>
+<input type="text" id="snackFrequency" placeholder="Enter snack frequency (e.g., daily)"/>
+<br><br>
+<label for="skipmeals">Do you skip meals?</label>
+<input type="radio" name="skipMeals" value="yes">Yes
+<input type="radio" name="skipMeals" value="no">No
+<br><br>
+<label for="nutritions">Do you read nutrition labels?</label>
+<input type="radio" name="nutritionLabels" value="yes">Yes
+<input type="radio" name="nutritionLabels" value="no">No
+<br><br>
+<label for="water">How often do you drink water? (cups/day)</label>
+<input type="number" id="waterIntake" placeholder="Enter cups of water per day"/>
+<br><br>
+<label for="eatinghabits">Do you prefer home-cooked meals or dining out?</label>
+<input type="radio" name="mealPreference" value="home-cooked">Home-Cooked
+<input type="radio" name="mealPreference" value="dining-out">Dining Out 
+<input type="radio" name="mealPreference" value="both">Both
+<br><br>
+<label for="eatinghabits">Do you have a preferred time for meals?</label>
+<input type="text" id="mealTime" placeholder="Enter preferred meal time"/>
+<br><br>
+<label for="eatinghabits">Do you have any specific dietary restrictions?</label>
+<input type="text" id="dietaryRestrictions" placeholder="Enter dietary restrictions"/>
+<br><br>
+<br><br>
+</fieldset>
+<br><br>
+<fieldset>
+  <legend><b>Health History (Optional but useful)</b></legend>
+  <br><br>
+<label for="healthconditions">Do you have any chronic health conditions?</label>
+<input type="checkbox" name="healthConditions" value="diabetes">Diabetes
+<input type="checkbox" name="healthConditions" value="hypertension">Hypertension
+<input type="checkbox" name="healthConditions" value="heart-disease">Heart Disease
+<input type="checkbox" name="healthConditions" value="none">None
+<input type="text" placeholder="Please specify">
+<br><br>
+<label for="medications">Are you currently taking any medications?</label>
+<input type="checkbox" name="medications" value="yes">Yes
+<input type="checkbox" name="medications" value="no">No
+<input type="text" placeholder="Please specify medications if any">
+<br><br>
+<label for="supplements">Do you take any dietary supplements?</label>
+<input type="checkbox" name="supplements" value="yes">Yes
+<input type="checkbox" name="supplements" value="no">No
+<input type="text" placeholder="Please specify supplements if any">
+<br><br>
+<label for="allergies">Family history of dietary-related issues?</label>
+<input type="checkbox" name="familyHistory" value="yes">Yes
+<input type="checkbox" name="familyHistory" value="no">No
+<input type="text" placeholder="Please specify if yes">
+<br><br>
+<br><br>
+</fieldset>
+<br><br>
+<fieldset>
+  <legend><b>Physical Activity</b></legend>
+  <br><br>
+<label for="exerciseFrequency">How often do you exercise?</label>
+<input type="radio" name="exerciseFrequency" value="daily">Daily
+<input type="radio" name="exerciseFrequency" value="weekly">Weekly
+<input type="radio" name="exerciseFrequency" value="monthly">Monthly
+<input type="radio" name="exerciseFrequency" value="rarely">Rarely
+<input type="radio" name="exerciseFrequency" value="never">Never
+<br><br>
+<label for="exerciseType">What type of exercise do you prefer?</label>
+<input type="checkbox" name="exerciseType" value="cardio">Cardio
+<input type="checkbox" name="exerciseType" value="strength">Strength Training
+<input type="checkbox" name="exerciseType" value="flexibility">Flexibility
+<input type="checkbox" name="exerciseType" value="sports">Sports
+<input type="checkbox" name="exerciseType" value="yoga">Yoga
+<input type="checkbox" name="exerciseType" value="other">Other
+<input type="text" placeholder="Please specify">
+<br><br>
+<label for="exerciseDuration">How long do you exercise each session (minutes)?</label>
+<input type="number" id="exerciseDuration" placeholder="Enter duration in minutes"/>
+<br><br>
+<br><br>
+</fieldset>
+<br><br>
+<fieldset>
+  <legend><b>Sleep & Stress</b></legend>
+  <br><br>
+<label for="sleepDuration">How many hours do you sleep per night?</label>
+<input type="number" id="sleepDuration" placeholder="Enter hours of sleep"/>
+<br><br>
+<label for="sleepQuality">How would you rate your sleep quality?</label>
+<input type="radio" name="sleepQuality" value="excellent">Excellent
+<input type="radio" name="sleepQuality" value="good">Good
+<input type="radio" name="sleepQuality" value="fair">Fair
+<input type="radio" name="sleepQuality" value="poor">Poor
+<br><br>
+<label for="stressLevel">How would you rate your stress level?</label>
+<input type="radio" name="stressLevel" value="low">Low
+<input type="radio" name="stressLevel" value="moderate">Moderate
+<input type="radio" name="stressLevel" value="high">High
+<input type="radio" name="stressLevel" value="very high">Very High
+<br><br>
+<label for="foodstress">Do you eat when stressed or emotional?</label>
+<input type="radio" name="foodStress" value="yes">Yes
+<input type="radio" name="foodStress" value="no">No
+<br><br>
+<br><br>
+</fieldset>
+<br><br>
+
+<h1>Diet Tracker Form – User Input Summary</h1>
+
+<h2>1. Personal Information</h2>
+<table>
+    <tr><th>Field</th><th>Value</th></tr>
+    <tr><td>Name</td><td>Priyadharshini</td></tr>
+    <tr><td>Age</td><td>21</td></tr>
+    <tr><td>Gender</td><td>Female</td></tr>
+    <tr><td>Height</td><td>165 cm</td></tr>
+    <tr><td>Weight</td><td>50 kg</td></tr>
+    <tr><td>Activity Level</td><td>Moderately active, Very active</td></tr>
+</table>
+
+<h2>2. Goals</h2>
+<table>
+    <tr><th>Primary Goal</th><th>Selected Goals</th></tr>
+    <tr><td>User's Goal</td><td>Lose weight, Improve Health</td></tr>
+</table>
+
+<h2>3. Dietary Preferences</h2>
+<table>
+    <tr><th>Field</th><th>Value</th></tr>
+    <tr><td>Diet Type</td><td>Vegetarian</td></tr>
+    <tr><td>Food Allergies</td><td>Dairy, Gluten, Soy</td></tr>
+    <tr><td>Other Allergies (if any)</td><td>Strawberries</td></tr>
+</table>
+
+<h2>4. Meal Tracking</h2>
+<table>
+    <tr><th>Meal</th><th>Items Entered</th></tr>
+    <tr><td>Breakfast</td><td>Oatmeal with banana, almond milk</td></tr>
+    <tr><td>Lunch</td><td>Grilled tofu salad with vinaigrette</td></tr>
+    <tr><td>Dinner</td><td>Quinoa with steamed veggies and lentil curry</td></tr>
+    <tr><td>Snacks</td><td>Hummus with carrot sticks</td></tr>
+    <tr><td>Beverages</td><td>3 cups water, 1 black coffee, green tea</td></tr>
+</table>
+
+<h2>5. Eating Habits</h2>
+<table>
+    <tr><th>Question</th><th>Response</th></tr>
+    <tr><td>Meals per day</td><td>3</td></tr>
+    <tr><td>Snack frequency</td><td>Daily</td></tr>
+    <tr><td>Skip meals?</td><td>No</td></tr>
+    <tr><td>Reads nutrition labels?</td><td>Yes</td></tr>
+    <tr><td>Water intake (cups/day)</td><td>8</td></tr>
+    <tr><td>Meal preference (home/dining out/both)</td><td>Home-Cooked</td></tr>
+    <tr><td>Preferred meal time</td><td>8 AM, 1 PM, 7 PM</td></tr>
+    <tr><td>Dietary restrictions</td><td>Low sodium</td></tr>
+</table>
+
+<h2>6. Health History</h2>
+<table>
+    <tr><th>Field</th><th>Value</th></tr>
+    <tr><td>Chronic Conditions</td><td>Hypertension</td></tr>
+    <tr><td>Other Conditions (if any)</td><td>None</td></tr>
+    <tr><td>Taking Medications?</td><td>Yes</td></tr>
+    <tr><td>Medications (if specified)</td><td>Lisinopril</td></tr>
+    <tr><td>Taking Supplements?</td><td>Yes</td></tr>
+    <tr><td>Supplements (if specified)</td><td>Vitamin D, B12</td></tr>
+    <tr><td>Family history of dietary issues?</td><td>Yes</td></tr>
+    <tr><td>Family issue details (if specified)</td><td>Type 2 Diabetes</td></tr>
+</table>
+
+<h2>7. Physical Activity</h2>
+<table>
+    <tr><th>Field</th><th>Value</th></tr>
+    <tr><td>Exercise Frequency</td><td>Weekly</td></tr>
+    <tr><td>Preferred Exercise Types</td><td>Cardio, Yoga</td></tr>
+    <tr><td>Other Exercise (if specified)</td><td>Pilates</td></tr>
+    <tr><td>Duration per session (minutes)</td><td>45</td></tr>
+</table>
+
+<h2>8. Sleep & Stress</h2>
+<table>
+    <tr><th>Field</th><th>Value</th></tr>
+    <tr><td>Sleep duration (hours)</td><td>7</td></tr>
+    <tr><td>Sleep quality</td><td><progress id="file" value="60" max="100"> 60% </progress>
+</td></tr>
+    <tr><td>Stress level</td><td><progress id="file" value="50" max="100"> 50% </progress>
+</td></tr>
+    <tr><td>Eat when stressed/emotional?</td><td>Yes</td></tr>
+</table>
+<br><br>
+<input type="submit" value="Submit"/>
+</form>
+</div>
+<!-- <h2><center>Important Steps in Diet</center></h2>
+<div class="diet-images">
+  
+  <img src="/chose.png" alt="Choose local, varied, fresh and seasonal foods">
+  <img src="/vegrule.png" alt="Follow the one third veg rule">
+  <img src="/packaging.png" alt="Don't let packaging fool you">
+  <img src="/cereals.png" alt="Add variety with legumes, nuts and cereals">
+  <img src="/brownrice.png" alt="Go from white rice to brown rice">
+  <img src="/lessmore.png" alt="Less is more">
+  <img src="/nojunk.png" alt="Say no to junk food and snack healthily">
+  <img src="/fats.png" alt="Choose Unsaturated fats over saturated fats">
+  <img src="/exercise.jpeg" alt="Exercise">
+</div> -->
+<h2><center>Important Steps in Diet</center></h2>
+<div class="diet-images">
+    <div class="diet-image-card">
+        <img src="/chose.png" alt="Choose local, varied, fresh and seasonal foods">
+        <div class="diet-caption">
+            <h3>Choose local, fresh and seasonal foods</h3>
+        </div>
+    </div>
+    
+    <div class="diet-image-card">
+        <img src="/vegrule.png" alt="Follow the one third veg rule">
+        <div class="diet-caption">
+            <h3>Follow the one third veg rule</h3>
+        </div>
+    </div>
+    
+    <div class="diet-image-card">
+        <img src="/packaging.png" alt="Don't let packaging fool you">
+        <div class="diet-caption">
+            <h3>Don't let packaging fool you</h3>
+        </div>
+    </div>
+    
+    <div class="diet-image-card">
+        <img src="/cereals.png" alt="Add variety with legumes, nuts and cereals">
+        <div class="diet-caption">
+            <h3>Add variety with legume, nut & cereal</h3>
+        </div>
+    </div>
+    
+    <div class="diet-image-card">
+        <img src="/brownrice.png" alt="Go from white rice to brown rice">
+        <div class="diet-caption">
+            <h3>Go from white rice to brown rice</h3>
+        </div>
+    </div>
+    
+    <div class="diet-image-card">
+        <img src="/lessmore.png" alt="Less is more">
+        <div class="diet-caption">
+            <h3>Less is more</h3>
+        </div>
+    </div>
+    
+    <div class="diet-image-card">
+        <img src="/nojunk.png" alt="Say no to junk food and snack healthily">
+        <div class="diet-caption">
+            <h3>Say no to junk food and snack healthily</h3>
+        </div>
+    </div>
+    
+    <div class="diet-image-card">
+        <img src="/fats.png" alt="Choose Unsaturated fats over saturated fats">
+        <div class="diet-caption">
+            <h3>Choose unsaturated fats over fats</h3>
+        </div>
+    </div>
+    
+    <div class="diet-image-card">
+        <img src="/exercise.jpeg" alt="Exercise">
+        <div class="diet-caption">
+            <h3>Exercise regularly for better health</h3>
+        </div>
+    </div>
+</div>
+<div class="footer">
+  <img class="im" src="/profile.jpg" alt="MyPhoto">
+  <p class="para" style="color:blue;font-size:large; font-style: italic; align-items:center;">Priyadharshini VN - developed for tracking fitness of the modern youngster</p>
+</div>
+
+
+</body>
+</html>
