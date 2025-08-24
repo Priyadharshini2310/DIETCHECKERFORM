@@ -39,7 +39,7 @@ A comprehensive web-based diet tracking application designed to help users monit
 
 ```
 diet-form-tracker/
-├── dietform.html              # Main HTML file with form structure
+├── index.html              # Main HTML file with form structure
 ├── dietform.css            # Core styling (external file)
 ├── images/
 │   ├── diet_quotes.jpg     # Header inspiration image
